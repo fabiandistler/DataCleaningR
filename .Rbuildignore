@@ -5,3 +5,4 @@
 ^README\.Rmd$
 ^\.github$
 ^DataCleaningR\.Rproj$
+^codecov\.yml$
