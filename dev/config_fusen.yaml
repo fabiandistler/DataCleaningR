@@ -1,0 +1,14 @@
+flat_load_data.Rmd:
+  path: dev/flat_load_data.Rmd
+  state: active
+  R: R/load_data.R
+  tests: tests/testthat/test-load_data.R
+  vignettes: []
+  inflate:
+    flat_file: dev/flat_load_data.Rmd
+    vignette_name: .na
+    open_vignette: true
+    check: true
+    document: true
+    overwrite: ask
+    clean: ask

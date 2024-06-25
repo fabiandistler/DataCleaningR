@@ -4,6 +4,8 @@
 # DataCleaningR
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/fabiandistler/DataCleaningR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/fabiandistler/DataCleaningR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of DataCleaningR is to …
