@@ -20,24 +20,13 @@ fusen::fill_description(
     Description = "This is an example package that showcases general data cleaning
     steps in R.",
     `Authors@R` = c(
-      person("John", "Doe", email = "john@email.me", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000"))
+      person("Fabian", "Distler", email = "fabian.distler@gmx.net", role = c("aut", "cre"))
     )
   )
 )
 # Define License with use_*_license()
-usethis::use_mit_license("John Doe")
+usethis::use_mit_license("Fabian Distler")
 ```
-
-# All-in-one function to deploy publicly on GitHub
-
-Either use this GitHub all-in-one function or choose the steps one-by-one in the following sections.
-See `vignette("share-on-a-github-website", package = "fusen")` for more information.
-
-```{r, eval=FALSE}
-# _All-in-one share of your package and its documentation on GitHub
-fusen::init_share_on_github()
-```
-
 
 # Start using git
 
@@ -56,8 +45,6 @@ usethis::git_default_branch_rename()
 remotes::install_local()
 # README
 usethis::use_readme_rmd()
-# Code of Conduct
-usethis::use_code_of_conduct("contact@fake.com")
 # NEWS
 usethis::use_news_md()
 # Package structure (add this in a dev/Readme.md file)
@@ -126,4 +113,3 @@ devtools::build(vignettes = TRUE)
 # gitcreds::gitcreds_set()
 fusen::init_share_on_github()
 ```
-
