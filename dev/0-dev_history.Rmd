@@ -90,13 +90,6 @@ fusen::add_flat_template("add")
 # Share the package
 
 ```{r, eval=FALSE}
-# set and try pkgdown documentation website locally
-usethis::use_pkgdown()
-pkgdown::build_site()
-
-# build the tar.gz with vignettes to share with others
-devtools::build(vignettes = TRUE)
-
 # Share your package and its documentation on GitHub
 # usethis::create_github_token()
 # gitcreds::gitcreds_set()
