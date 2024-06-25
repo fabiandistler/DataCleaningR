@@ -95,3 +95,9 @@ fusen::add_flat_template("add")
 # gitcreds::gitcreds_set()
 fusen::init_share_on_github()
 ```
+
+# Start renv.
+```{r}
+renv::init()
+```
+
